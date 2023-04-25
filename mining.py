@@ -28,3 +28,5 @@ for i,tweet in enumerate(sntwitter.TwitterSearchScraper(' BBB ' + 'lang:pt').get
         print(tweet.content)
         print(tweet.date)
         csvWriter.writerow([tweet.date, tweet.content.encode('utf-8')]) #If you need more information, just provide the attributes
+
+#Teste
